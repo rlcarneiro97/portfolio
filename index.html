@@ -12,9 +12,9 @@
     <link rel="shortcut icon" href="./coder.png" type="image/x-icon" />
 </head>
 <body>
-    <header class="site-header sticky-top">
+    <header class="site-header sticky-top pb-3">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
-            <a class="navbar-brand px-2" href="./index.html">
+            <a class="navbar-brand px-2" href="#Home">
                 <!-- <img src="./img_icon.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
                 <i class="fa-solid fa-code"></i>
                 Coder
@@ -26,25 +26,31 @@
             <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav align-items-end">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">
+                        <a class="nav-link" href="#Home">
                             <i class="fa-solid fa-house p-1"></i>
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">
+                        <a class="nav-link" href="#Sobre">
                             <i class="fa-solid fa-user p-1"></i>
                             Sobre
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">
+                        <a class="nav-link" href="#Resumo">
+                            <i class="fa-solid fa-file p-1"></i>
+                            Resumo
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Portfolio">
                             <i class="fa-solid fa-briefcase p-1"></i>
                             Portfólio
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">
+                        <a class="nav-link" href="#Contato">
                             <i class="fa-solid fa-paper-plane p-1"></i>
                             Contato
                         </a>
@@ -54,9 +60,9 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div class="position-relative overflow-hidden m-auto text-center bg-light">
-                <div class="pt-5">
+        <section id="Home">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light pt-5">
+                <div class="pt-3">
                     <img src="./img_icon.jpg" width="300" height="300" class="d-inline-block align-baseline rounded border border-dark" alt="">
                 </div>
                 <div class="mx-auto pt-3">
@@ -65,7 +71,7 @@
                 <div class="">
                     <p class="lead fw-light fs-5">Pós Graduando em Desenvolvimento de Aplicações Web - Developer</p>
                 </div>
-                <div class="pb-3">
+                <div class="pb-5">
                     <a class="btn btn-primary btn-light" href="mailto:rafaeldelima97@hotmail.com?subject=Contato Portfólio" target="_blank"><i class="fa-solid fa-envelope px-1"></i></a>
                     <a class="btn btn-primary btn-light" href="https://twitter.com/rafaeldelima97" target="_blank"><i class="fa-brands fa-twitter px-1"></i></a>
                     <a class="btn btn-primary btn-light" href="https://www.linkedin.com/in/rafael-carneiro-397654181/" target="_blank"><i class="fa-brands fa-linkedin px-1"></i></a>
@@ -73,11 +79,11 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="position-relative overflow-hidden m-auto text-center bg-light mt-2">
+        <section id="Sobre">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light mt-2 pt-5">
                 <div class="container mx-auto p-4 mb-5 pb-4">
-                    <h2 class="display-4 fw-normal pt-3 pb-3">Sobre</h2>
-                    <p class="lead fw-light mb-3">Olá! Sou Rafael, um desenvolvedor 
+                    <h2 class="display-3 fw-normal pt-3 pb-4">Sobre</h2>
+                    <p class="lead fw-light mb-5">Olá! Sou Rafael, um desenvolvedor 
                         web atuante em João Pessoa-PB. Graduado em Ciência da Computação, e 
                         cursando Pós-Graduação em Desenvolvimento de Aplicações para Web. 
                         A área de TI vive em constante mudança, com novas “features” surgindo 
@@ -89,6 +95,94 @@
                         convencionais. Casualmente, tenho como hobbie, o estudo da implementação das 
                         mecânicas em Jogos Digitais, utilizando a “Godot Engine”. Utilizo a mesma para a reprodução de 
                         mecanismos já conhecidos no mercado de trabalho, bem como a reprodução de novas idéias.</p>
+                </div>
+            </div>
+        </section>
+        <section id="Resumo">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light mt-2 pt-5">
+                <div class="container mx-auto p-4 mb-5 pb-4">
+                    <h2 class="display-3 fw-normal pt-3 pb-4">Resumo</h2>
+                    <h4 class="pt-1 pb-4 fw-light">Experiência:</h4>
+                    <div class="row m-auto">
+                        <div class="col-sm-6">
+                          <div class="card bg-light mb-3">
+                            <div class="card-header">
+                                <h5 class="card-title mt-2">Imersão Fábrica de Software - Unipê</h5>
+                            </div>
+                            <div class="card-body">
+                              <p><em>Desenvolvedor Web - PHP</em></p>
+                              <p>Agosto de 2017 - dezembro de 2017 (5 meses)</p>
+                              <p>João Pessoa</p>
+                              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card bg-light mb-3">
+                              <div class="card-header">
+                                  <h5 class="card-title mt-2">Estágio Fábrica de Software - Unipê</h5>
+                              </div>
+                              <div class="card-body">
+                                <p><em>Game Designer</em></p>
+                                <p>Março de 2019 - dezembro de 2019 (10 meses)</p>
+                                <p>João Pessoa</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card bg-light mb-3">
+                              <div class="card-header">
+                                  <h5 class="card-title mt-2">Projeto de Extensão AID - Unipê</h5>
+                              </div>
+                              <div class="card-body">
+                                <p><em>Montagem e Manutenção de Computadores</em></p>
+                                <p>Agosto de 2014 - Junho de 2015 (1 ano)</p>
+                                <p>João Pessoa</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="pt-3 pb-4 fw-light">Formação Acadêmica:</h4>
+                    <div class="row m-auto">
+                        <div class="col-sm-6">
+                            <div class="card bg-light mb-3">
+                              <div class="card-header">
+                                  <h5 class="card-title mt-2">Centro Universitário de João Pessoa - Unipê</h5>
+                              </div>
+                              <div class="card-body">
+                                <p><em>Bacharelado em Ciência da Computação, Ciência da Computação · (2015 - 2019)</em></p>
+                                <p>João Pessoa</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="card bg-light mb-3">
+                            <div class="card-header">
+                                <h5 class="card-title mt-2">Centro Universitário de João Pessoa - Unipê</h5>
+                            </div>
+                            <div class="card-body">
+                              <p><em>Pós-Graduação, Desenvolvimento de Aplicações para Web · (2020 - 2022)</em></p>
+                              <p>João Pessoa</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Portfolio">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light mt-2 pt-5">
+                <div class="container mx-auto p-4 mb-5 pb-4">
+                    <h2 class="display-3 fw-normal pt-3 pb-4">Portfólio</h2>
+                    <p class="lead fw-light mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis, aliquid laudantium enim quos quod repellendus inventore maiores alias voluptatibus aperiam beatae vel quia aliquam similique! Neque deserunt fugit eveniet.</p>
+                </div>
+            </div>
+        </section>
+        <section id="Contato">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light mt-2 pt-5">
+                <div class="container mx-auto p-4 mb-5 pb-4">
+                    <h2 class="display-3 fw-normal pt-3 pb-4">Contato</h2>
+                    <p class="lead fw-light mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus doloribus facilis, nesciunt reprehenderit ratione fugiat! Vero eaque deleniti eveniet harum veniam, maxime culpa, officia, excepturi ex id ad iusto doloremque?</p>
                 </div>
             </div>
         </section>
