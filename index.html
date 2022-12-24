@@ -11,8 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./coder.png" type="image/x-icon" />
 </head>
+<!-- class="bg-light bg-gradient" -->
 <body>
-    <header class="site-header sticky-top pb-3">
+    <header class="site-header sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
             <a class="navbar-brand px-2" href="#Home">
                 <!-- <img src="./img_icon.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
@@ -61,12 +62,12 @@
     </header>
     <main>
         <section id="Home">
-            <div class="position-relative overflow-hidden m-auto text-center bg-light pt-5">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light bg-gradient pt-5">
                 <div class="pt-3">
-                    <img src="./img_icon.jpg" width="300" height="300" class="d-inline-block align-baseline rounded border border-dark" alt="">
+                    <img src="./img/img_icon.jpg" width="300" height="300" class="d-inline-block align-baseline rounded border border-dark" alt="">
                 </div>
                 <div class="mx-auto pt-3">
-                    <h2 class="display-4 fw-normal pb-2">Rafael Carneiro</h2>
+                    <h2 class="display-4 fw-bolder pb-2">Rafael Carneiro</h2>
                 </div>
                 <div class="">
                     <p class="lead fw-light fs-5">Pós Graduando em Desenvolvimento de Aplicações Web - Developer</p>
@@ -80,9 +81,9 @@
             </div>
         </section>
         <section id="Sobre">
-            <div class="position-relative overflow-hidden m-auto text-center bg-light mt-2 pt-5">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light bg-gradient mt-2 pt-5">
                 <div class="container mx-auto p-4 mb-5 pb-4">
-                    <h2 class="display-3 fw-normal pt-3 pb-4">Sobre</h2>
+                    <h2 class="display-3 fw-bolder pt-3 pb-4">Sobre</h2>
                     <p class="lead fw-light mb-5">Olá! Sou Rafael, um desenvolvedor 
                         web atuante em João Pessoa-PB. Graduado em Ciência da Computação, e 
                         cursando Pós-Graduação em Desenvolvimento de Aplicações para Web. 
@@ -99,9 +100,9 @@
             </div>
         </section>
         <section id="Resumo">
-            <div class="position-relative overflow-hidden m-auto text-center bg-light mt-2 pt-5">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light bg-gradient mt-2 pt-5">
                 <div class="container mx-auto p-4 mb-5 pb-4">
-                    <h2 class="display-3 fw-normal pt-3 pb-4">Resumo</h2>
+                    <h2 class="display-3 fw-bolder pt-3 pb-4">Resumo</h2>
                     <h4 class="pt-1 pb-4 fw-light">Experiência:</h4>
                     <div class="row m-auto">
                         <div class="col-sm-6">
@@ -171,32 +172,281 @@
             </div>
         </section>
         <section id="Portfolio">
-            <div class="position-relative overflow-hidden m-auto text-center bg-light mt-2 pt-5">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light bg-gradient mt-2 pt-5">
                 <div class="container mx-auto p-4 mb-5 pb-4">
-                    <h2 class="display-3 fw-normal pt-3 pb-4">Portfólio</h2>
-                    <p class="lead fw-light mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis, aliquid laudantium enim quos quod repellendus inventore maiores alias voluptatibus aperiam beatae vel quia aliquam similique! Neque deserunt fugit eveniet.</p>
+                    <h2 class="display-3 fw-bolder pt-3 pb-4">Portfólio</h2>
+                    <p class="lead fs-3 fw-normal">EventoApp:</p>
+                    <p class="lead fs-5 fw-light mb-4">Projeto desenvolvido utilizando Java e Spring Boot.</p>
+                    <a href="https://github.com/rlcarneiro97/eventoapp" target="_blank" class="btn btn-primary mb-5">Veja o projeto no Git</a>
+
+                    <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/projetos/eventoapp/eventoapp login.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela responsável pelo login de usuário</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/eventoapp/eventoapp home.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela principal da aplicação</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/projetos/eventoapp/eventoapp cadastro-evento.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela responsável pelo cadastro de evento</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/projetos/eventoapp/eventoapp convidado1.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela responsável pela visualização de um evento</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/projetos/eventoapp/eventoapp convidado2.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela responsável pelo cadastro e visualização de um convidado</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                    
+                    <p class="lead fs-3 fw-normal">EventoAPI:</p>
+                    <p class="lead fs-5 fw-light mb-4">API desenvolvida com base no projeto "EventoApp", utilizando Java, Spring Boot e Swagger.</p>
+                    <a href="https://github.com/rlcarneiro97/evento-api" target="_blank" class="btn btn-primary mb-5">Veja o projeto no Git</a>
+
+                    <div id="carouselExampleIndicators_2" class="carousel slide mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators_2" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators_2" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/projetos/eventoapi/evento-api.jpeg">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela principal da API</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/eventoapi/evento-api-pt2.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela com rotas das requisições e schemas</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators_2" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators_2" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+
+                    <p class="lead fs-3 fw-normal">Hands-On:</p>
+                    <p class="lead fs-5 fw-light mb-4">Site desenvolvido como projeto da Pós Graduação usando HTML, CSS e JS.</p>
+                    <a href="https://github.com/rlcarneiro97/hands-On" target="_blank" class="btn btn-primary mb-5">Veja o projeto no Git</a>
+
+                    <div id="carouselExampleIndicators_3" class="carousel slide mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators_3" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators_3" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/projetos/hands-on/hands-on-pt1.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>CRUD de Alunos</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/hands-on/hands-on-pt2.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>CRUD de disciplinas</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators_3" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators_3" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+
+                    <p class="lead fs-3 fw-normal">API Node Todo:</p>
+                    <p class="lead fs-5 fw-light mb-4">Uma simples API de to-do list feita com Node.Js e MongoDB.</p>
+                    <a href="https://github.com/rlcarneiro97/ApiNodeToDo" target="_blank" class="btn btn-primary mb-5">Veja o projeto no Git</a>
+
+                    <div id="carouselExampleIndicators_4" class="carousel slide mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators_4" data-slide-to="0" class="active"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/projetos/api-node-todo/api-node-todo.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>API em funcionamento</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators_4" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators_4" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+
+                    <p class="lead fs-3 fw-normal">Front React Todo:</p>
+                    <p class="lead fs-5 fw-light mb-4">Site feito para consumir dados da "API Node Todo" feita em React.</p>
+                    <a href="https://github.com/rlcarneiro97/FrontReactToDo" target="_blank" class="btn btn-primary mb-5">Veja o projeto no Git</a>
+
+                    <div id="carouselExampleIndicators_5" class="carousel slide mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators_5" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators_5" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators_5" data-slide-to="2"></li>
+                          <li data-target="#carouselExampleIndicators_5" data-slide-to="3"></li>
+                          <li data-target="#carouselExampleIndicators_5" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/projetos/front-react-todo/front-react-todo.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Front-end inicializado</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/front-react-todo/front-react-todo-2.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela inicial</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/front-react-todo/front-react-todo-1.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela de inserção de todos</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/front-react-todo/front-react-todo-3.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela de detalhes de um todo</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/front-react-todo/front-react-todo-4.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela de alteração de um todo</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators_5" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators_5" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+
+                    <p class="lead fs-3 fw-normal">Projeto Micro Front-End:</p>
+                    <p class="lead fs-5 fw-light mb-4">Site desenvolvido como projeto da Pós Graduação usando React.</p>
+                    <a href="https://github.com/rlcarneiro97/ProjetoMicroFontEnd" target="_blank" class="btn btn-primary mb-5">Veja o projeto no Git</a>
+
+                    <div id="carouselExampleIndicators_6" class="carousel slide mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators_6" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators_6" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators_6" data-slide-to="2"></li>
+                          <li data-target="#carouselExampleIndicators_6" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/projetos/projeto-micro-frontend/projeto-micro-frontend.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Inicialiação do Micro Front-end</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/projeto-micro-frontend/projeto-micro-frontend-1.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela inicial</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/projeto-micro-frontend/projeto-micro-frontend-2.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela de cadastro</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="/img/projetos/projeto-micro-frontend/projeto-micro-frontend-3.png">
+                            <div class="carousel-caption d-none d-md-block text-secondary">
+                                <p>Tela de detalhes</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators_6" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators_6" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                          <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                    
                 </div>
             </div>
         </section>
         <section id="Contato">
-            <div class="position-relative overflow-hidden m-auto text-center bg-light mt-2 pt-5">
+            <div class="position-relative overflow-hidden m-auto text-center bg-light bg-gradient mt-2 pt-5">
                 <div class="container mx-auto p-4 mb-5 pb-4">
                     <h2 class="display-3 fw-normal pt-3 pb-4">Contato</h2>
-                    <p class="lead fw-light mb-5">Precisa de um Desenvolvedor?! Sinta-se a vontade para entrar em contato!</p>
+                    <p class="lead fw-light mb-5">Precisa de um desenvolvedor?! Sinta-se a vontade para entrar em contato!</p>
                     <div class="pb-5">
-                        <a class="btn btn-primary btn-light" href="mailto:rafaeldelima97@hotmail.com?subject=Contato Portfólio" target="_blank"><i class="fa-regular fa-envelope px-1"></i> Enviar Email</a>
+                        <a class="btn btn-primary btn-light" href="mailto:rafaeldelima97@hotmail.com?subject=Contato Portfólio" target="_blank"><i class="fa-regular fa-envelope px-1"></i> Enviar email</a>
                         <a class="btn btn-primary btn-light" href="https://api.whatsapp.com/send?phone=5583987872754" target="_blank"><i class="fa-brands fa-whatsapp px-1"></i> Conversar pelo whats!</a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="fixed-bottom">
+    <!-- class="fixed-bottom" -->
+    <footer>
         <nav class="navbar navbar-dark bg-dark justify-content-center">
             <span class="navbar-text">Rafael Carneiro © 2022</span>
         </nav>
     </footer>
-
+    <script>
+        // $('.carousel').carousel()
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
